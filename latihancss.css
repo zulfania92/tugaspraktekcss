@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: violet;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+a:active {
+    color:  blueviolet;
+}
+
+.link {
+    text-align: center;
+    font-size: 24px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: darkcyan;
+}
+
+.btn:active {
+    background-color: purple;
+    box-shadow: 0 5px black;
+}
+
+/* Latihan Pseudo-Class Selector pada Tabel */
+.judul {
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    animation: color-change 6s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: blueviolet;
+    }
+    25% {
+      color: palevioletred;
+    }
+    50% {
+      color: black;
+    }
+    75% {
+      color: palegoldenrod;
+    }
+    100% {
+      color: palevioletred;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    font-family: verdana;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table td:first-child {
+    width: 50px;
+  }
+  
+  table td:not(:first-child) {
+    width: 100px;
+    border-bottom: 1px solid #fff;
+  }
+  
+  table thead td {
+    font-weight: bold;
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: purple;
+    color: white;
+  }
+  
+  table tbody tr:hover {
+    background-color: blueviolet;
+    color: white;
+  }
+  

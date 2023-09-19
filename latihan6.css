@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+
+    /* Menengahkan Gambar */
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+/* selector dengan nama tag */
+h1 {
+    color: blueviolet;
+}
+
+/* selector id */
+#judul-text {
+    color: black;
+}
+
+.tengah{
+    align-self: center;
+    color: gray;
+}
+/* Multy Selector */
+h2, h3, h4 {
+    color: darkorchid;
+}
+
+/* lebih sepesifik lagi bisa */
+h2.second-text {
+    color: pink;
+}
